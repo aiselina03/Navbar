@@ -1,0 +1,108 @@
+nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.nav {
+  border: 1px solid pink;
+  background-color: pink;
+  height: 50px;
+  width: 80%;
+  padding: 10px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav .fa-bars{
+    display: none;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+}
+
+
+.home {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 7px;
+  font-size: 20px;
+  padding: 8px 20px;
+}
+
+.about {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 7px;
+  font-size: 20px;
+  padding: 8px 20px;
+}
+
+.contact {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 7px;
+  font-size: 20px;
+  padding: 8px 20px;
+}
+
+.home2 {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 7px;
+  font-size: 20px;
+  padding: 8px 20px;
+}
+.nav .icon {
+  color: white;
+  font-size: 45px;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu {
+   display: none;
+    }
+    .nav .fa-bars{
+        display: block;
+        color: white;
+        font-size: 30px;
+    
+    }
+    
+}
+
+ 
+/* box */
+/* .container{
+    border: 2px solid beige;
+    background-color: beige;
+    width: 700px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.container .box{
+    border: 1px solid rgb(210, 94, 133);
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+@media only screen and (max-width: 600px) {
+    .container  {
+      background-color: lightblue;
+      flex-direction: column;
+    }
+ } */
